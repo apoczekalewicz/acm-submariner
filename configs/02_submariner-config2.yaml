@@ -2,7 +2,7 @@ apiVersion: submarineraddon.open-cluster-management.io/v1alpha1
 kind: SubmarinerConfig
 metadata:
   name: subconfig
-  namespace: awscluster3
+  namespace: cluster2
 spec:
   credentialsSecret:
-    name: awscluster3-aws-creds
+    name: cluster2-aws-creds
